@@ -55,6 +55,8 @@ export default class DrawControl extends React.Component<DrawControlProps> {
   draw?: Control;
 
   componentDidMount () {
+
+    console.log("Hey this is the forked version");
     const map = this.context;
     // The map needs to be passed in the React Context, or welse we can't do
     // anything.
